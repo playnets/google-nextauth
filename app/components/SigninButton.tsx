@@ -11,7 +11,7 @@ const SigninButton = () => {
     return (
       <div className="flex gap-4 ml-auto items-center">
         <Image
-              src={session.user.image}
+              src={session.user.image} 
               width={40}
               height={40}
               className="rounded-full"
